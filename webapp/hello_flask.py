@@ -23,4 +23,5 @@ def entry_page() -> "html":
     return render_template("entry.html",
                            the_title="Приветствую")
 
+
 app.run(debug=True)
